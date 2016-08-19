@@ -1,0 +1,69 @@
+.class public Lorg/eclipse/jetty/io/NetworkTrafficListener$Empty;
+.super Ljava/lang/Object;
+.source "NetworkTrafficListener.java"
+
+# interfaces
+.implements Lorg/eclipse/jetty/io/NetworkTrafficListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/eclipse/jetty/io/NetworkTrafficListener;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Empty"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 76
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public closed(Ljava/net/Socket;)V
+    .locals 0
+    .param p1, "socket"    # Ljava/net/Socket;
+
+    .prologue
+    .line 92
+    return-void
+.end method
+
+.method public incoming(Ljava/net/Socket;Lorg/eclipse/jetty/io/Buffer;)V
+    .locals 0
+    .param p1, "socket"    # Ljava/net/Socket;
+    .param p2, "bytes"    # Lorg/eclipse/jetty/io/Buffer;
+
+    .prologue
+    .line 84
+    return-void
+.end method
+
+.method public opened(Ljava/net/Socket;)V
+    .locals 0
+    .param p1, "socket"    # Ljava/net/Socket;
+
+    .prologue
+    .line 80
+    return-void
+.end method
+
+.method public outgoing(Ljava/net/Socket;Lorg/eclipse/jetty/io/Buffer;)V
+    .locals 0
+    .param p1, "socket"    # Ljava/net/Socket;
+    .param p2, "bytes"    # Lorg/eclipse/jetty/io/Buffer;
+
+    .prologue
+    .line 88
+    return-void
+.end method

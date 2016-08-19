@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:id="@id/live_channellist_item_num_txt" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="888" />
+    <TextView android:textSize="20.0sp" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/live_channellist_item_name_txt" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="湖南卫视" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" />
+    <ImageView android:id="@id/man_mark" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/manmarkhide" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="28.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:background="@drawable/menu_bg_n" android:paddingLeft="10.0dip" android:layout_width="300.0dip" android:layout_height="306.0dip" android:text="版本:1.1.7\n\n作者: 匿名" />
+        <Button android:textColor="@color/exit_button_textcolor" android:id="@id/player_exist_play_bt" android:text="@string/quitmenu" android:drawableLeft="@drawable/exit_play_n" style="@style/exit_window_btn" />
+        <Button android:textColor="@color/exit_button_textcolor" android:id="@id/player_exist_exit_bt" android:text="@string/quitlive" android:drawableLeft="@drawable/exit_n" style="@style/exit_window_btn" />
+    </LinearLayout>
+    <ImageView android:id="@id/player_exist_bg" android:src="@drawable/exit_dialog_bg" android:contentDescription="@string/exit_img_link" style="@style/exit_pic_img" />
+    <ProgressBar android:id="@id/downapp_progressBar" android:visibility="gone" android:layout_width="606.0dip" android:layout_height="20.0dip" android:max="100" android:progressDrawable="@drawable/exit_downloadbar_color" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

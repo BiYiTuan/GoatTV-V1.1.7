@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="65.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/textall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/texthide" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/mantype_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/man_left_btn" />
+            <Button android:textSize="48.0sp" android:textColor="@color/white" android:id="@id/man_name_btn" android:background="@drawable/man_name_btn" android:focusableInTouchMode="true" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            <ImageView android:id="@id/mantype_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/man_right_btn" />
+        </LinearLayout>
+        <Button android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/man_btn_typehide" android:background="@drawable/man_tp_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:text="@string/man_shanchutype" android:onClick="HideChannels" />
+        <Button android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/man_btn_typeshow" android:background="@drawable/man_tp_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/man_huifutype" android:onClick="ShowChannels" />
+        <Button android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/man_btn_hs" android:background="@drawable/man_tp_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:onClick="hide_show" />
+        <Button android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/man_btn_daoru" android:background="@drawable/man_tp_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/manc_daoru" android:onClick="Daoru" />
+        <Button android:textSize="30.0sp" android:textColor="@color/white" android:id="@id/man_btn_custom" android:background="@drawable/man_tp_btn" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:onClick="CustomPass" />
+    </LinearLayout>
+    <ListView android:id="@id/Man_listView" android:padding="30.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="70.0dip" android:layout_marginTop="69.0dip" android:layout_marginRight="100.0dip" android:layout_marginBottom="69.0dip" android:listSelector="@drawable/live_channel_list_item_bg" />
+</LinearLayout>

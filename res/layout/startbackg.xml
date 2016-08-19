@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/home_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="#ffff9b00" android:id="@id/banben" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:text="@string/banben" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ProgressBar android:id="@id/about_progress" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginRight="10.0dip" android:indeterminateDrawable="@drawable/selector_progress" android:indeterminateDuration="500" android:indeterminateBehavior="repeat" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffafeeee" android:gravity="center|left" android:id="@id/start_load_tv" android:layout_width="240.0dip" android:layout_height="fill_parent" android:text="正在导入自定义节目列表···" />
+    </LinearLayout>
+</RelativeLayout>

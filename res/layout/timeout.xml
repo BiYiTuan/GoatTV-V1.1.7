@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/timex_de" style="@style/exit_menu">
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:text="@string/timeout_del" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/timex_de_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/menu_left" />
+        <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/timex_de_tv" android:layout_width="150.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/timex_de_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_right" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/timex_p" style="@style/exit_menu">
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="32.0dip" android:text="@string/timeout_p2p" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/timex_p_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/menu_left" />
+        <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/timex_p_tv" android:layout_width="150.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/timex_p_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_right" />
+    </LinearLayout>
+</LinearLayout>

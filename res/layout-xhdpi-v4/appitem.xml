@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="60.0dip" android:layout_height="60.0dip">
+        <ImageView android:id="@id/app_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_launcher" android:scaleType="fitXY" />
+        <ImageView android:id="@id/app_install" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_app_install" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="极品飞车" />
+</LinearLayout>

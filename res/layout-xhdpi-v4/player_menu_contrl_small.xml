@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/menu_up" android:background="@drawable/menu_more_two" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/menu_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <LinearLayout android:id="@id/player_menu_advol" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/menu_vol" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:id="@id/player_menu_vol_tv1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/changes" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_vol_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_vol_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_vol_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_menu_turn" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/sxhuantai" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:id="@id/player_menu_turn_tv1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/huantaimoshi" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_turn_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_turn_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_turn_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_menu_sclar" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/menu_scaler" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:id="@id/player_menu_sclar_tv1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/sca" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_sclar_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_sclar_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_sclar_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_menu_jiema" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/jiemahuan" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:id="@id/player_menu_jiema_tv1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/jiema" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_jiema_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_jiema_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="@string/yingjie" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_jiema_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_menu_tvstart" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/menu_tvlist" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:id="@id/player_menu_tvstart_tv1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/begin" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_tvstart_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_tvstart_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_tvstart_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_menu_tvsize" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/menu_tvsize" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center|right" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/tvsize" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_tvsize_left" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/menu_left" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/menu_control_text" android:gravity="center" android:id="@id/player_menu_tvsize_tv" android:duplicateParentState="true" android:layout_width="70.0dip" android:layout_height="fill_parent" android:text="小" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/player_menu_tvsize_right" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/menu_right" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/menu_two" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/menu_huikan" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/huikan" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_huikan" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_set" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/controlman" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pingdaoguanli" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/player_timeout" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/tuchaoshi" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/timeout" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/menu_bangding" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/userid" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_bang" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/menu_tui_app" android:visibility="visible" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/apptuijian" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_app" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/menu_clear" style="@style/exit_menu_small">
+                <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/clearc" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/menu_control_text" android:gravity="center" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/clear_reboot" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/menu_down" android:background="@drawable/menu_more_one" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+</ScrollView>
